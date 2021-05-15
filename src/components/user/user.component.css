@@ -1,0 +1,42 @@
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+  
+#table {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+}
+  
+#table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#table tr:nth-child(even){background-color: #b8d9f0;}
+  
+#table tr:hover {background-color: rgb(189, 205, 235);}
+  
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(34, 160, 243);
+    color: white;
+}
+.form-group {
+    margin: 5px 5px;
+}
+
+.border-form {
+    border: 0.5px solid rgb(187, 185, 185);
+    border-radius: 15px;
+}
+
+Form {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
